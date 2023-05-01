@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    margin: 45px 10px 5px 5px;
+    padding: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
